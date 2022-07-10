@@ -1,0 +1,10 @@
+.env
+
+grafana/lib
+grafana/provisioning
+grafana/grafana.ini
+
+loki/
+
+prometheus/data
+
