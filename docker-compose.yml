@@ -87,7 +87,7 @@ services:
       - DS_PROMETHEUS=Prometheus
       - /etc/timezone:/etc/timezone:ro
       - /etc/localtime:/etc/localtime:ro
-    image: grafana/grafana@sha256:d592a2d726da177d8c7e73ca5d3425f47562f1458480049b7594caf514acf377
+    image: grafana/grafana:7.5.16
     volumes:
       - ./grafana/provisioning:/etc/grafana/provisioning
       - ./grafana/grafana.ini:/etc/grafana/grafana.ini
