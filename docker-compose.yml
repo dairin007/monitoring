@@ -24,7 +24,7 @@ services:
       - ${PROMETHEUS_HOST_PORT}:${PROMETHEUS_CONTAINER_PORT}
     volumes:
       - ./prometheus/template/prometheus.yml.template:/template/prometheus.yml.template
-      - ./prometheus/data:/etc/prometheus/
+      - ./prometheus/data:/prometheus/
     command:
       - /bin/sh
       - -c
