@@ -1,6 +1,6 @@
 FROM --platform=linux/arm64 prom/prometheus:v2.41.0 as build-stage
 
-FROM --platform=linux/arm64 alpine:3.17.0
+FROM --platform=linux/arm64 alpine:3.17.1
 
 RUN apk add gettext
 
