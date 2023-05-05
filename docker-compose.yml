@@ -166,7 +166,7 @@ services:
       - docker_network
 
   promtail:
-    image: grafana/promtail:2.7.1
+    image: grafana/promtail:2.8.2
     volumes:
       - /var/log:/var/log
       - /etc/timezone:/etc/timezone:ro
