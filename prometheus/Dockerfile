@@ -1,4 +1,4 @@
-FROM --platform=linux/arm64 prom/prometheus:v2.41.0 as build-stage
+FROM --platform=linux/arm64 prom/prometheus:v2.43.1 as build-stage
 
 FROM --platform=linux/arm64 alpine:3.17.1
 
